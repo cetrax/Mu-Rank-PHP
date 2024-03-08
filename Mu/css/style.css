@@ -1,0 +1,54 @@
+body{   
+    background: #eee;  
+    line-height: 1.5;
+}  
+#frm{  
+    border: solid gray 1px;  
+    width:25%;  
+    border-radius: 2px;  
+    margin: 120px auto;  
+    background: white;  
+    padding: 50px;  
+}  
+#btn{  
+    color: #fff;  
+    background: #337ab7;  
+    padding: 7px;  
+    margin-left: 70%;  
+}  
+  th, td {
+    padding: 3px;
+  }
+  .center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+.mi-tabla {
+    border: #b7b7b7 2px solid;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.mi-tabla th,
+.mi-tabla td {
+    text-align: center;
+}
+
+
+.mi-tabla th {
+    background-color: #000000;
+}
+.mi-tabla tr:nth-child(even) {
+    background-color: #2F1B3F; 
+}
+.mi-tabla tr:nth-child(odd) {
+    background-color: #121212;
+}
+
+.mi-tabla tr:not(:first-child):hover td {
+    background-color: #FFF;
+    color: #000000;
+}
